@@ -40,9 +40,7 @@ train_transform = transforms.Compose([
 ])
 ```
 
-performed the best. These are basic augmentations applied randomly to the dataset. Visualisations of the images in the augmented dataset are attached:
-
-![alt text](image-1.png)
+performed the best. These are basic augmentations applied randomly to the dataset. 
 
 More agressive augmentation did not work any better. 
 

@@ -1,13 +1,12 @@
-# Patch Size Variation
+# Vision Transformer 
 
-We tried varying hyperparameters across multiple different variables. Here is a table of multiple runs. 
+Implementation based on [this](https://arxiv.org/abs/2010.11929) paper. 
+See `transformer.ipynb` for implementation. 
 
+## Results 
 ![alt text](image.png)
 
 We realised that the better models were obtained be means of smaller parameters. That, combined with **data augmentation**, yielded better results. 
-
-## best config
-
 The best model configuration turned out to be the following. 
 
 ```
@@ -43,20 +42,20 @@ train_transform = transforms.Compose([
 ])
 ```
 
-performed the best. These are basic augmentations applied randomly to the dataset. Visualisations of the imagesin the augmented dataset are attached:
+performed the best. These are basic augmentations applied randomly to the dataset. Visualisations of the images in the augmented dataset are attached:
 
 ![alt text](image-1.png)
 
 More agressive augmentation did not work any better. 
 
-# Embeddings 
+## Embeddings 
 
 ![alt text](pos_enc.png)
 
 We see that 2d and sinusoidal embeddings provide marginal improvements over 1d learned embeddings. None, is, however, significantly worse than the others. 
 
 
-# Attention Maps
+## Attention Maps
 Visualisation attached:
 ![alt text](image-2.png)
 

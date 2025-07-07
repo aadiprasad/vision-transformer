@@ -44,6 +44,8 @@ performed the best. These are basic augmentations applied randomly to the datase
 
 More agressive augmentation did not work any better. 
 
+The best model is in `best_model.pth`. 
+
 ## Embeddings 
 
 ![alt text](pos_enc.png)

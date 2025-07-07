@@ -4,8 +4,6 @@ Implementation based on [this](https://arxiv.org/abs/2010.11929) paper.
 See `transformer.ipynb` for implementation. 
 
 ## Results 
-![alt text](image.png)
-
 We realised that the better models were obtained be means of smaller parameters. That, combined with **data augmentation**, yielded better results. 
 The best model configuration turned out to be the following. 
 
